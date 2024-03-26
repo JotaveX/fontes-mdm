@@ -421,7 +421,7 @@
 </node>
 <node CREATED="1657542298359" ID="ID_648190111" MODIFIED="1709670445066" POSITION="right" TEXT="generators">
 <icon BUILTIN="element"/>
-<node CREATED="1638532646585" ID="ID_1972588312" MODIFIED="1711474477399" TEXT="mean">
+<node CREATED="1638532646585" FOLDED="true" ID="ID_1972588312" MODIFIED="1711474916283" TEXT="mean">
 <icon BUILTIN="element"/>
 <node CREATED="1638532674425" FOLDED="true" ID="ID_279417295" MODIFIED="1707424493799" TEXT="mongoModel">
 <icon BUILTIN="element"/>
@@ -14511,9 +14511,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1705684947385" FOLDED="true" ID="ID_1602823819" MODIFIED="1711474015955" TEXT="json">
+<node CREATED="1705684947385" ID="ID_1602823819" MODIFIED="1711474917210" TEXT="json">
 <icon BUILTIN="element"/>
-<node CREATED="1642422161038" FOLDED="true" ID="ID_277975724" MODIFIED="1709840026101" TEXT="jsonClass">
+<node CREATED="1642422161038" FOLDED="true" ID="ID_277975724" MODIFIED="1711475471446" TEXT="jsonClass">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="element"/>
 <node CREATED="1641817891685" FOLDED="true" ID="ID_1703168411" MODIFIED="1707335081258" TEXT="parameters">
@@ -14925,7 +14925,7 @@
 <node CREATED="1706120419068" ID="ID_1465988517" MODIFIED="1706120593277" TEXT="            &quot;many&quot;: false, ">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1706295887020" ID="ID_265303880" MODIFIED="1709580765043" TEXT="            &quot;apiUrl&quot;: &quot;http://localhost:8080/{{ mi:first-lower(properties/table/value) }}&quot;,">
+<node CREATED="1706295887020" ID="ID_265303880" MODIFIED="1711475018040" TEXT="            &quot;apiUrl&quot;: &quot;http://localhost:8080/{{ properties/apiUrl/value }}&quot;,">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1709151928634" ID="ID_1045583488" MODIFIED="1709151954179" TEXT="            &quot;fieldDisplayedInLabel&quot;: &quot;{{ properties/fieldDisplayedInLabel/value }}&quot;,">
@@ -15010,7 +15010,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1706122250010" ID="ID_1065220054" MODIFIED="1709579601942" TEXT="finalizaAttribute">
+<node CREATED="1706122250010" ID="ID_1065220054" MODIFIED="1711474957117" TEXT="finalizaAttribute">
 <icon BUILTIN="element"/>
 <node CREATED="1706122256815" ID="ID_999645276" MODIFIED="1706205913903" TEXT="                }{{ mi:if-else(position() = last(), &apos;&apos;, &apos;,&apos;) }}">
 <icon BUILTIN="tag_green"/>
